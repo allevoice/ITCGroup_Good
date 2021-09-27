@@ -1,0 +1,13 @@
+.texte_formulaire
+{
+    border:0px solid transparent;
+    background:#eeeeee;
+    padding:5px;
+    color:#333333;
+}
+.texte_formulaire:hover
+{
+    border:0px solid transparent;
+    background:#cccccc;
+    color:#000000;
+}

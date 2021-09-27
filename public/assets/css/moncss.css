@@ -1,0 +1,186 @@
+.imglogo{
+    position:relative;
+    z-index: auto;
+	width: 10%;
+    margin-left:18%;
+    margin-top: 5%;
+}
+
+
+.colorback{
+   background-color:#000000;
+}
+.img_carousel{
+    background-color: transparent;
+}
+
+.subbannerabout img{
+   width: 100%;
+    height: 100%;
+}
+
+
+.who-we-are-img {
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 20.7cm;
+
+}
+.who-we-are{
+    background: rgba(0, 0, 0, 1) none repeat scroll 0 0;
+    position: relative;
+    z-index: 99;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width:300px) {
+    .imgbanner{
+        position: relative;
+        width: 100%;
+    }
+
+    .imglogo,.viewlogoimg{
+        display: none;
+    }
+
+    .img_carousel{
+        display: none;
+    }
+
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width:300px) {
+    .imgbanner{
+        position: relative;
+        width: 100%;
+    }
+
+    .imglogo,.viewlogoimg{
+        display: none;
+    }
+
+    .img_carousel{
+        display: none;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 764px) {
+    .imgbanner{
+        position: relative;
+        width: 100%;
+    }
+
+    .imglogo,.viewlogoimg{
+        display: none;
+    }
+
+    .img_carousel{
+        display: none;
+    }
+
+
+}
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .imgbanner{
+        position: relative;
+        width:450px;
+    }
+
+    .imglogo{
+        position:relative;
+        z-index: auto;
+        width: 10%;
+        margin-left:18%;
+        margin-top: 5%;
+    }
+
+    .img_carousel{
+        position:relative;
+        width: 40%;
+        float: left;
+        margin-top:10%;
+        margin-left:-42%;
+    }
+
+
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .imgbanner{
+        position: relative;
+        width:500px;
+    }
+
+    .imglogo{
+        position:relative;
+        z-index: auto;
+        width: 10%;
+        margin-left:18%;
+        margin-top: 5%;
+    }
+
+    .img_carousel{
+        position:relative;
+        width: 40%;
+        float: left;
+        margin-top:20%;
+        margin-left:-38%;
+    }
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 1024px) {
+
+    .imgbanner{
+        position: relative;
+        width:550px;
+    }
+
+    .img_carousel{
+        position:relative;
+        width: 40%;
+        float: left;
+        margin-top:15%;
+        margin-left:-43%;
+        z-index: 999;
+    }
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 1440px) {
+
+    .imgbanner{
+        position: relative;
+        width:800px;
+    }
+
+    .img_carousel{
+        position:relative;
+        width: 40%;
+        float: left;
+        margin-top:15%;
+        margin-left:-43%;
+    }
+
+}

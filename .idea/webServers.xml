@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e75f090b-865a-4744-a247-08901ee8b920" name="ntpsams2@ntpsams.com" url="http://ftp.ntpsams.com">
+        <fileTransfer host="ftp.ntpsams.com" port="21" rootFolder="/devsite.ntpsams.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
