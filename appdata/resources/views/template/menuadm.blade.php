@@ -32,7 +32,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                 <a href="#">Home<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Slide show</a>
+                        <a href="{{route('slideview')}}">Slide show</a>
                     </li>
                     <li>
                         <a href="#">Services offert</a>

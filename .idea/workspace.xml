@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8855b989-fb24-4ddc-a0e6-0f6d546942b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appdata/.env" beforeDir="false" afterPath="$PROJECT_DIR$/appdata/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appdata/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/appdata/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appdata/resources/views/admin/adminp.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/appdata/resources/views/admin/adminp.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appdata/resources/views/template/menuadm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/appdata/resources/views/template/menuadm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appdata/resources/views/template/thermadmin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/appdata/resources/views/template/thermadmin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appdata/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/appdata/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +37,20 @@
     <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appdata/app/Http/Controllers/SlideshowController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding>
+                <element signature="e#40#58#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -57,7 +75,6 @@
         <option value="$PROJECT_DIR$/resources/views/template/tmpitcg.blade.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/appdata/routes/web.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/appdata/resources/views/template/menup.blade.php" />
@@ -71,12 +88,24 @@
         <option value="$PROJECT_DIR$/appdata/resources/views/home/projects.blade.php" />
         <option value="$PROJECT_DIR$/appdata/resources/views/home/blog.blade.php" />
         <option value="$PROJECT_DIR$/appdata/resources/views/home/contact.blade.php" />
-        <option value="$PROJECT_DIR$/appdata/resources/views/template/thermadmin.blade.php" />
         <option value="$PROJECT_DIR$/appdata/resources/views/template/footerview.blade.php" />
         <option value="&lt;e75f090b-865a-4744-a247-08901ee8b920&gt;/appdata/.env" />
         <option value="&lt;e75f090b-865a-4744-a247-08901ee8b920&gt;/appdata/resources/views/template/tmpitcg.blade.php" />
         <option value="&lt;e75f090b-865a-4744-a247-08901ee8b920&gt;/.htaccess" />
         <option value="$PROJECT_DIR$/appdata/resources/views/template/menuadm.blade.php" />
+        <option value="$PROJECT_DIR$/appdata/resources/views/admin/adminp.blade.php" />
+        <option value="$PROJECT_DIR$/appdata/resources/views/template/thermadmin.blade.php" />
+        <option value="$PROJECT_DIR$/appdata/database/migrations/2021_09_28_135427_create_slideshows_table.php" />
+        <option value="$PROJECT_DIR$/appdata/.env" />
+        <option value="$PROJECT_DIR$/appdata/database/seeds/Slideshow.php" />
+        <option value="$PROJECT_DIR$/appdata/database/seeds/SlideshowSeeder.php" />
+        <option value="$PROJECT_DIR$/appdata/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/appdata/database/factories/SlideFactory.php" />
+        <option value="$PROJECT_DIR$/appdata/resources/views/admin/homedata/slideshow.blade.php" />
+        <option value="$PROJECT_DIR$/appdata/app/Slideshow.php" />
+        <option value="$PROJECT_DIR$/appdata/routes/web.php" />
+        <option value="$PROJECT_DIR$/appdata/resources/views/admin/homedata/viewbyidslideshow.blade.php" />
+        <option value="$PROJECT_DIR$/appdata/app/Http/Controllers/SlideshowController.php" />
       </list>
     </option>
   </component>
@@ -139,30 +168,28 @@
               <item name="OnlineITC" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineITC" type="462c0819:PsiDirectoryNode" />
               <item name="appdata" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineITC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineITC" type="462c0819:PsiDirectoryNode" />
+              <item name="appdata" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineITC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineITC" type="462c0819:PsiDirectoryNode" />
+              <item name="appdata" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineITC" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineITC" type="462c0819:PsiDirectoryNode" />
               <item name="appdata" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineITC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineITC" type="462c0819:PsiDirectoryNode" />
-              <item name="appdata" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineITC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineITC" type="462c0819:PsiDirectoryNode" />
-              <item name="appdata" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,13 +212,14 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\CL\Desktop\projetWeb\HostingServer\rodneyIPTV\ITCGroupe\OnlineITC\appdata\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\CL\Desktop\projetWeb\HostingServer\rodneyIPTV\ITCGroupe\OnlineITC\public" />
       <recent name="C:\Users\CL\Desktop\projetWeb\HostingServer\rodneyIPTV\ITCGroupe\OnlineITC" />
       <recent name="C:\Users\CL\Desktop\projetWeb\HostingServer\rodneyIPTV\ITCGroupe\OnlineITC\appdata" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CL\Desktop\projetWeb\HostingServer\rodneyIPTV\ITCGroupe\OnlineITC\appdata\resources\views\admin\homedata" />
+      <recent name="C:\Users\CL\Desktop\projetWeb\HostingServer\rodneyIPTV\ITCGroupe\OnlineITC\appdata\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,16 +253,18 @@
       <workItem from="1632585298692" duration="1640000" />
       <workItem from="1632590320564" duration="12245000" />
       <workItem from="1632639261372" duration="4939000" />
+      <workItem from="1632801112959" duration="25486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18824000" />
+    <option name="totallyTimeSpent" value="44310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17550144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19126074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -247,15 +277,15 @@
       <window_info anchor="bottom" id="Elm Compiler" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="File Transfer" order="10" weight="0.32974428" />
+      <window_info anchor="bottom" id="File Transfer" order="10" visible="true" weight="0.13189772" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Elm" order="3" />
-      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.23925501" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.23925501" />
       <window_info anchor="right" id="Github Tools" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3295129" />
     </layout>
@@ -268,13 +298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appdata/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -309,16 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appdata/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -469,16 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appdata/resources/views/admin/adminp.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appdata/resources/views/template/thermadmin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appdata/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459" />
@@ -491,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appdata/resources/views/template/tmpitcg.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" column="76" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/all-stylesheets.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
@@ -505,10 +501,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/resources/views/template/tmpitcg.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/resources/views/admin/adminp.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#519#586#0#HTML" expanded="true" />
+            <element signature="e#634#701#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appdata/resources/views/template/menuadm.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="133" column="14" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="7" column="73982" selection-start-line="7" selection-start-column="73982" selection-end-line="7" selection-end-column="73989" />
+          <folding>
+            <element signature="e#53480#53680#2" expanded="true" />
+            <element signature="e#53886#54035#2" expanded="true" />
+            <element signature="e#54534#54680#2" expanded="true" />
+            <element signature="e#54981#55147#1" expanded="true" />
+            <element signature="e#65468#65711#2" expanded="true" />
+            <element signature="e#66536#66785#2" expanded="true" />
+            <element signature="e#92436#92626#2" expanded="true" />
+            <element signature="e#92672#92862#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/resources/views/template/thermadmin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/database/seeds/Slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/database/factories/SlideFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#67#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/database/seeds/SlideshowSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/database/migrations/2021_09_28_135427_create_slideshows_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/app/Slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="62" column="66" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="66" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/resources/views/admin/homedata/slideshow.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="57" column="42" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/resources/views/admin/homedata/viewbyidslideshow.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="109" column="28" lean-forward="true" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+          <folding>
+            <element signature="e#573#591#0#HTML" expanded="true" />
+            <element signature="e#735#753#0#HTML" expanded="true" />
+            <element signature="e#988#1006#0#HTML" expanded="true" />
+            <element signature="e#1147#1165#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appdata/app/Http/Controllers/SlideshowController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="e#40#58#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

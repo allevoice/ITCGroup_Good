@@ -12,6 +12,14 @@
         <link href="{{asset('public/assetsadm/css/custom.css')}}" rel="stylesheet" />
         <!-- GOOGLE FONTS-->
 
+        <style>
+            .imgslideshowadmin{
+                width:100px;
+            }
+            .imgslideshowadmin{
+                width:50px;
+            }
+        </style>
     </head>
 <body>
 <div id="wrapper">

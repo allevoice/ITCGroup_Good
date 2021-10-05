@@ -58,10 +58,15 @@ Route::get('/login',function(){
 })->name('loginpage');
 
 
-
+//ADMIN PAGES
 Route::get('/admin','DashpageController@index')->name('adminpage');
 
-
+//Slide Shows
+Route::get('/slides','SlideshowController@index')->name('slideview');
+Route::get('/view/{id}','SlideshowController@show')->name('viewslideid');
+Route::get('/new','SlideshowController@create')->name('newslideform');
+Route::post('/insert','SlideshowController@store')->name('insertslideform');
+//Slide Shows
 
 
 //Mes routes en Anglais

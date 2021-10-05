@@ -7,7 +7,7 @@
         <title>ITC Group | @yield('title')</title>
         <link rel="icon" href="{{asset('public/assets/img/logo/favicon.png')}}'" type="image/png">
 
-        {{--<link rel="stylesheet" href="{{asset('public/assets/css/all-stylesheets.css')}}" type="text/css" />--}}
+        <link rel="stylesheet" href="{{asset('public/assets/css/all-stylesheets.css')}}" type="text/css" />
         <link rel="stylesheet" href="{{asset('public/assets/css/bootstrap/bootstrap.min.css')}}" type="text/css" />
         <link rel="stylesheet" href="{{asset('public/assets/css/moncss.css')}}" type="text/css" />
         <link rel="stylesheet" href="{{asset('public/assets/css/headings.css')}}" type="text/css" />
